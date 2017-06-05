@@ -1,0 +1,130 @@
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+.header {
+  height: 50px;
+  margin-top: 40px;
+}
+.logo {
+  display: block;
+  text-align: center;
+}
+.nav {
+  font-family: Montserrat;
+}
+.nav__item {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.nav__link {
+  color: #343e5b;
+}
+.shop-cart {
+  font-size: 11px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+.shop-cart__ico {
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+.shop-cart__counter {
+  margin-left: 7px;
+  width: 24px;
+  height: 24px;
+  background-color: #e3e8f0;
+  border-radius: 12px;
+  border: none;
+}
+.sign-in {
+  font-family: Montserrat;
+}
+.sign-in__btn {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  color: #343e5b;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid;
+  border-color: #e3e8f0;
+  border-radius: 16px;
+  padding: 8px 20px;
+}
+.main-nav {
+  height: 56px;
+  margin: 0 auto;
+  color: #b9bed1;
+  border-top: 1px solid;
+  border-color: #f0f2f7;
+  padding-top: 17px;
+  font-size: 13px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+.main-nav__item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.main-nav__link {
+  color: #b9bed1;
+}
+.main-nav__link:hover {
+  color: #343e5b;
+}
+.main-nav__support-btn {
+  color: #b9bed1;
+}
+.main-nav__search {
+  line-height: 24px;
+  margin-top: -4px;
+  text-transform: none;
+}
+.main-nav__search-ico {
+  margin-right: 10px;
+}
+.main-nav__search-input {
+  padding-left: 5px;
+  border: none;
+}
+.main {
+  background: url(../img/main_bg.png);
+  height: 500px;
+}
+.main__text {
+  margin-top: 110px;
+  margin-left: 150px;
+  font-family: Montserrat;
+  color: #ffffff;
+  text-align: left;
+}
+.main__text-header {
+  line-height: 50px;
+  font-size: 42px;
+  font-weight: 900;
+}
+.main__text-descript {
+  line-height: 25px;
+  font-family: CrimsonText;
+  font-size: 16px;
+}
+.main__text-btn {
+  margin-top: 70px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 13px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  border-radius: 21px;
+  background-color: #2754eb;
+  box-shadow: 10px 17px 40px 0px rgba(50, 50, 50, 0.62);
+  border: none;
+  padding: 21px 60px;
+}
+.main__img {
+  margin-top: -60px;
+}
