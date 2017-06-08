@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Open Sans Semibold';
+  src: url('../fonts/OpenSans-Semibold.eot');
+  src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Semibold.woff2') format('woff2'), url('../fonts/OpenSans-Semibold.woff') format('woff'), url('../fonts/OpenSans-Semibold.ttf') format('truetype'), url('../fonts/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans.eot');
+  src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans.woff2') format('woff2'), url('../fonts/OpenSans.woff') format('woff'), url('../fonts/OpenSans.ttf') format('truetype'), url('../fonts/OpenSans.svg#OpenSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Open Sans';
+}
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  text-decoration: none;
+}
+.reg {
+  font-family: 'Open Sans';
+}
+.sbold {
+  font-family: 'Open Sans Semibold';
+}
+.header-top {
+  margin-top: 8.6rem;
+}
+.header-top h1 {
+  font-size: 5rem;
+  font-family: 'Open Sans Semibold';
+  color: #fc6744;
+}
+.header-top h1 span {
+  color: #000000;
+}
+.header-top p {
+  font-size: 1.6rem;
+  color: rgba(65, 65, 65, 0.7);
+}
+.header-elem {
+  margin-top: 11rem;
+  color: #ffffff;
+}
+.header-elem i {
+  margin-top: 5rem;
+}
+.header-elem_header {
+  margin-top: 2rem;
+  font-family: 'Open Sans Semibold';
+  font-size: 2rem;
+}
+.header-elem_text {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 18rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.6rem;
+}
+.header-elem_item-1 {
+  background-color: #4eb2f7;
+}
+.header-elem_item-2 {
+  background-color: #c049f8;
+}
+.header-elem_item-3 {
+  background-color: #817eff;
+}
+.header-elem_item-4 {
+  background-color: #f74770;
+}
+.header-elem_item-4 i {
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+.header-elem_btn {
+  margin-top: 3rem;
+  margin-bottom: -30px;
+  background-color: #ffffff;
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.6);
+  width: 228px;
+  height: 55px;
+  border: none;
+  border-radius: 27px;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);
+          box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);
+}
+.header-elem_btn img {
+  padding-right: 2rem;
+  padding-bottom: .4rem;
+}
