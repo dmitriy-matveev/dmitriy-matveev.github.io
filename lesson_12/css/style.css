@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  font-family: 'Indie Flower';
+  background: url(../img/bg.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 800px;
+}
+.nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-top: 7%;
+  padding-bottom: 2%;
+}
+.nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 18px;
+  color: #fff;
+}
+.search img {
+  width: 30px;
+}
+.text {
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 20%;
+}
+.text h1 {
+  font-size: 100px;
+}
+.text p {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.popup {
+  display: none;
+  width: 700px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.popup-overlay {
+  background-color: rgba(218, 112, 116, 0.15);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+.popup-overlay:target {
+  display: block;
+}
+.popup-overlay:target + .popup {
+  display: block;
+}
+.popup-close {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 7rem;
+}
+.popup-close:hover {
+  color: #000;
+  text-decoration: none;
+}
+.popup p {
+  border-top: 1px solid #aeaeae;
+  padding-top: 20px;
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  width: 600px;
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a a:hover {
+  text-decoration: none;
+  color: #fff;
+}
