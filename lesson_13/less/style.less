@@ -1,0 +1,231 @@
+// Fonts
+	@font-face {
+		font-family: 'Panton-Black';
+		src: url('../fonts/Panton-Black.eot');
+		src: url('../fonts/Panton-Black.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Panton-Black.woff2') format('woff2'),
+			url('../fonts/Panton-Black.woff') format('woff'),
+			url('../fonts/Panton-Black.ttf') format('truetype'),
+			url('../fonts/Panton-Black.svg#Panton-Black') format('svg');
+		font-weight: 900;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Panton-Light';
+		src: url('../fonts/Panton-Light.eot');
+		src: url('../fonts/Panton-Light.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Panton-Light.woff2') format('woff2'),
+			url('../fonts/Panton-Light.woff') format('woff'),
+			url('../fonts/Panton-Light.ttf') format('truetype'),
+			url('Panton-Light.svg#Panton-Light') format('svg');
+		font-weight: 300;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Panton-SemiBold';
+		src: url('../fonts/Panton-SemiBold.eot');
+		src: url('../fonts/Panton-SemiBold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Panton-SemiBold.woff2') format('woff2'),
+			url('../fonts/Panton-SemiBold.woff') format('woff'),
+			url('../fonts/Panton-SemiBold.ttf') format('truetype'),
+			url('../fonts/Panton-SemiBold.svg#Panton-SemiBold') format('svg');
+		font-weight: 600;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Panton-ExtraBold';
+		src: url('../fonts/Panton-ExtraBold.eot');
+		src: url('../fonts/Panton-ExtraBold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Panton-ExtraBold.woff2') format('woff2'),
+			url('../fonts/Panton-ExtraBold.woff') format('woff'),
+			url('../fonts/Panton-ExtraBold.ttf') format('truetype'),
+			url('Panton-ExtraBold.svg#Panton-ExtraBold') format('svg');
+		font-weight: 800;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Panton-ExtraBlack';
+		src: url('../fonts/Panton-ExtraBlack.eot');
+		src: url('../fonts/Panton-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Panton-ExtraBlack.woff2') format('woff2'),
+			url('../fonts/Panton-ExtraBlack.woff') format('woff'),
+			url('../fonts/Panton-ExtraBlack.ttf') format('truetype'),
+			url('../fonts/Panton-ExtraBlack.svg#Panton-ExtraBlack') format('svg');
+		font-weight: 900;
+		font-style: normal;
+	}
+// Base setting
+body {
+	.f-light;
+	font-size: 15px;
+}
+a {
+	color: @text-black;
+	text-decoration: none;
+}
+a:hover,a:active,a:focus,a:visited {
+	text-decoration: none;
+}
+// Mixins
+	.f-black {
+    font-family: 'Panton-Black';
+	}
+	.f-light {
+		font-family: 'Panton-Light';
+	}
+	.f-sbold {
+		font-family: 'Panton-SemiBold';
+	}
+	.f-exbold {
+		font-family: 'Panton-ExtraBold';
+	}
+	.f-exblack {
+		font-family: 'Panton-ExtraBlack';
+	}
+
+// Colors
+@text-white: #fff;
+@text-black: #363636;
+@button: #059feb;
+// Code
+.block-header { 
+	text-align: center;
+	.f-exblack;
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	line-height: 14rem;
+}
+
+
+.header {
+	text-align: center;	
+	&-text {
+		.f-exbold;
+	}
+	&-contacts {
+		margin-top: 2rem;
+		a {
+			.f-exbold;
+			font-size: 2rem;
+			display: block;
+		}
+		button {
+			margin-top: .5rem;
+			.f-sbold;
+			font-size: 1.7rem;
+			background-color: white;
+			border: 2px solid @text-black;
+			border-radius: 10px;
+			&:hover {
+				background-color: @button;
+				color: @text-white;
+			}
+		}
+	}
+	&-nav {
+		margin-bottom: -20px;
+		.f-light;
+		font-size: 2rem;	
+	}
+	&-list {
+		background-color: @text-black;
+		&_item {
+			display: inline-block;
+		}
+		&_link {
+			padding: 2rem;
+			height: 100%;
+			display: block;
+			color: @text-white;
+			&:hover {
+				background-color: @button;
+				color: @text-white;
+			}
+		}
+	}
+}
+.main {
+
+	color: @text-white;
+	text-align: center;
+	&-text {
+		background: url(../img/main/main-bg.jpg) no-repeat center center;
+		.logo {
+			height: 6rem;
+			margin-top: 15%;	
+		}
+		h1 {
+			.f-black;
+			font-size: 2.6rem;
+			text-transform: uppercase;
+		}
+		h4 {
+			margin-bottom: 5rem;
+			.f-sbold;
+			text-transform: uppercase;
+			font-size: 1.5rem;
+		}
+		&-btn {
+			p {
+				display: block;
+				margin: 0 auto;
+				width: 300px;	
+				position: relative;
+				.f-light;
+				font-size: 1.3rem;
+			}
+			button {
+				margin-top: 3rem;
+				margin-bottom: 6rem;
+				border-radius: 30px;
+				width: 260px;
+				height: 45px;
+				text-transform: uppercase;
+				.f-exbold;
+				font-size: 2rem;
+				background-color: @button;
+				border: none;
+			}
+		}
+		&-mouse {
+			margin-bottom: 50px;
+			width: 36px;
+		}
+		&-arrow {
+			bottom: -5.6rem;
+			right: -3rem;
+			position: absolute;
+			width: 42px;
+			height: 67px;
+		}
+	}
+}
+.eggs {
+	padding-bottom: 10rem;
+	&-item {
+		font-size: 2rem;
+		.f-exbold;
+		text-transform: uppercase;
+		padding-left: 1rem;
+		border-left: 3px solid @button;
+		h3 {
+			margin-top: -.1rem;
+		}
+		&_descript {
+			.f-sbold;
+			font-size: 1.4rem;
+		}
+	}
+}
+.partners {
+	color: @text-white;
+	background-color: @text-black;
+	img {
+		width: 140px;
+		margin: 2rem;
+	}
+}
