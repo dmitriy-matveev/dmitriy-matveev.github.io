@@ -1,0 +1,269 @@
+@font-face {
+  font-family: 'P22UndergroundCYPro-Book';
+  src: url('../fonts/P22UndergroundCYPro-Book.eot');
+  src: url('../fonts/P22UndergroundCYPro-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/P22UndergroundCYPro-Book.woff2') format('woff2'), url('../fonts/P22UndergroundCYPro-Book.woff') format('woff'), url('../fonts/P22UndergroundCYPro-Book.ttf') format('truetype'), url('../fonts/P22UndergroundCYPro-Book.svg#P22UndergroundCYPro-Book') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'P22UndergroundCYPro-Thin';
+  src: url('../fonts/P22UndergroundCYPro-Thin.eot');
+  src: url('../fonts/P22UndergroundCYPro-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/P22UndergroundCYPro-Thin.woff2') format('woff2'), url('../fonts/P22UndergroundCYPro-Thin.woff') format('woff'), url('../fonts/P22UndergroundCYPro-Thin.ttf') format('truetype'), url('../fonts/P22UndergroundCYPro-Thin.svg#P22UndergroundCYPro-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'P22UndergroundCYPro-Medium';
+  src: url('../fonts/P22UndergroundCYPro-Medium.eot');
+  src: url('../fonts/P22UndergroundCYPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/P22UndergroundCYPro-Medium.woff2') format('woff2'), url('../fonts/P22UndergroundCYPro-Medium.woff') format('woff'), url('../fonts/P22UndergroundCYPro-Medium.ttf') format('truetype'), url('../fonts/P22UndergroundCYPro-Medium.svg#P22UndergroundCYPro-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'P22UndergroundCYPro-Demi';
+  src: url('../fonts/P22UndergroundCYPro-Demi.eot');
+  src: url('../fonts/P22UndergroundCYPro-Demi.eot?#iefix') format('embedded-opentype'), url('../fonts/P22UndergroundCYPro-Demi.woff2') format('woff2'), url('../fonts/P22UndergroundCYPro-Demi.woff') format('woff'), url('../fonts/P22UndergroundCYPro-Demi.ttf') format('truetype'), url('../fonts/P22UndergroundCYPro-Demi.svg#P22UndergroundCYPro-Demi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'P22UndergroundCYPro-Heavy';
+  src: url('../fonts/P22UndergroundCYPro-Heavy.eot');
+  src: url('../fonts/P22UndergroundCYPro-Heavy.eot?#iefix') format('embedded-opentype'), url('../fonts/P22UndergroundCYPro-Heavy.woff2') format('woff2'), url('../fonts/P22UndergroundCYPro-Heavy.woff') format('woff'), url('../fonts/P22UndergroundCYPro-Heavy.ttf') format('truetype'), url('../fonts/P22UndergroundCYPro-Heavy.svg#P22UndergroundCYPro-Heavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+.f-book {
+  font-family: 'P22UndergroundCYPro-Book';
+}
+.f-thin {
+  font-family: 'P22UndergroundCYPro-Thin';
+}
+.f-med {
+  font-family: 'P22UndergroundCYPro-Medium';
+}
+.f-demi {
+  font-family: 'P22UndergroundCYPro-Demi';
+}
+.f-heavy {
+  font-family: 'P22UndergroundCYPro-Heavy';
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'P22UndergroundCYPro-Medium';
+}
+a:hover,
+a:active,
+a:target,
+a:visited {
+  text-transform: none;
+}
+.main {
+  min-height: 600px;
+  background: url(../img/main-bg.jpg) no-repeat center top;
+}
+.main-header {
+  padding-top: 4rem;
+  color: #ffffff;
+}
+.main-header-logo {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 2rem;
+}
+.main-header-logo h2 {
+  font-family: 'P22UndergroundCYPro-Heavy';
+  margin: 0 auto;
+}
+.main-header-logo p {
+  font-family: 'P22UndergroundCYPro-Thin';
+  margin: 0 auto;
+}
+.main-header-contacts {
+  text-transform: uppercase;
+  text-align: right;
+}
+.main-header-contacts__order {
+  display: inline-block;
+  text-align: center;
+  line-height: 5rem;
+  font-family: 'P22UndergroundCYPro-Thin';
+  font-size: 1.5rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  width: 16rem;
+  height: 5rem;
+  margin-right: 4rem;
+}
+.main-header-contacts__order:hover {
+  text-transform: uppercase;
+  color: #cccccc;
+  text-decoration: none;
+}
+.main-header-contacts__phone {
+  font-family: 'P22UndergroundCYPro-Heavy';
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+.main-header-contacts__phone:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+.main-text {
+  text-align: center;
+}
+.main-text-header {
+  text-align: center;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.main-text-header h1 {
+  font-size: 3.5rem;
+  font-family: 'P22UndergroundCYPro-Heavy';
+  text-align: center;
+  color: #ffff33;
+  text-transform: uppercase;
+}
+.main-text-descript {
+  margin-top: 5rem;
+}
+.main-text-descript ul {
+  margin-top: 16rem;
+  font-family: 'P22UndergroundCYPro-Book';
+  font-size: 2rem;
+  text-align: left;
+  color: #ffffff;
+}
+.main-text-descript ul li {
+  background: url(../img/main-marker.png) no-repeat left center;
+  padding-left: 2.3rem;
+  list-style-type: none;
+}
+.main-consult {
+  text-align: center;
+  background: #ffffff;
+  border-radius: 5px;
+  height: 42rem;
+  width: 40rem;
+}
+.main-consult h3 {
+  padding-top: 10%;
+  margin: 0 auto;
+  font-family: 'P22UndergroundCYPro-Book';
+  font-size: 2.2rem;
+  width: 60%;
+}
+.main-consult input {
+  font-family: 'P22UndergroundCYPro-Book';
+  font-size: 1.5rem;
+  width: 70%;
+  line-height: 4.5rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  padding-left: 2rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.main-consult button {
+  background-color: #ffff33;
+  border: none;
+  border-radius: 5px;
+  font-family: 'P22UndergroundCYPro-Book';
+  font-size: 1.5rem;
+  width: 70%;
+  height: 4.5rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  border-bottom: 5px solid #cccc00;
+}
+.main .main-money {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-top: -7rem;
+}
+.advantage {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.advantage-item {
+  margin-top: 5rem;
+}
+.advantage-item-img {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+  background-color: #ffff33;
+  border-radius: 50%;
+}
+.advantage-item-img img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.advantage-item p {
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 3rem;
+  font-family: 'P22UndergroundCYPro-Book';
+  font-size: 1.8rem;
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 6.5px;
+  }
+  img#main-money {
+    display: none;
+  }
+  .main-text-descript ul {
+    margin-top: 16rem;
+  }
+  .main-header-logo h2 {
+    font-size: 3.5rem;
+  }
+  .main-header-logo p {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 8.5px;
+  }
+  .main {
+    max-height: 680px;
+  }
+  .main-text-header h1 {
+    font-size: 3.3rem;
+  }
+  .main-money {
+    margin-top: -5rem;
+  }
+  .advantage {
+    margin-top: 7rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 9.5px;
+  }
+}
+@media (min-width: 1201px) {
+  .advantage-item p {
+    display: block;
+    height: 15rem;
+  }
+  .col-xs-offset-4 {
+    margin-left: 0px;
+  }
+}
