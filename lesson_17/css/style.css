@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: url('../fonts/Ubuntu-Regular.eot');
+  src: url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Ubuntu-Regular.woff2') format('woff2'), url('../fonts/Ubuntu-Regular.woff') format('woff'), url('../fonts/Ubuntu-Regular.ttf') format('truetype'), url('../fonts/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ubuntu-Bold';
+  src: url('../fonts/Ubuntu-Bold.eot');
+  src: url('../fonts/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Ubuntu-Bold.woff2') format('woff2'), url('../fonts/Ubuntu-Bold.woff') format('woff'), url('../fonts/Ubuntu-Bold.ttf') format('truetype'), url('../fonts/Ubuntu-Bold.svg#Ubuntu-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+.f-reg {
+  font-family: 'Ubuntu-Regular';
+}
+.f-bold {
+  font-family: 'Ubuntu-Bold';
+}
+html {
+  font-size: 10px;
+}
+body {
+  background: url(../img/bg.jpg);
+  font-family: 'Ubuntu-Regular';
+}
+span {
+  display: block;
+  margin: 0 auto;
+  margin-top: 4rem;
+  height: 1px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+h1 {
+  text-transform: uppercase;
+  font-family: 'Ubuntu-Bold';
+  font-size: 3.6rem;
+  color: #0bbaf0;
+}
+h2 {
+  text-transform: uppercase;
+  color: #0bbaf0;
+  font-size: 2.4rem;
+}
+.main {
+  text-align: center;
+}
+.main a {
+  display: block;
+  line-height: 5rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+.main p {
+  background-color: #fff;
+  width: 98%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom: 3px solid #dcdcdc;
+  border-left: 3px solid #dcdcdc;
+  border-right: 3px solid #dcdcdc;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 2.2rem;
+}
+.accordion {
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+  width: 90rem;
+  height: 5rem;
+}
+.tab-link {
+  margin-top: 1rem;
+  font-size: 2.3rem;
+  background-color: #0bbaf0;
+}
+.hiden {
+  display: none;
+}
