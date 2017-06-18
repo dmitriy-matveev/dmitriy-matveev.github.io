@@ -1,0 +1,125 @@
+html {
+	font-size: 16px;
+}
+body {
+	.f-ub-reg;
+}
+.f-ub-reg {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+.f-ub-med {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+}
+.f-os {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+
+section {
+ background: url(../img/main-bg.jpg) no-repeat center center;
+ background-size: cover;
+ height: 100vh;
+ width: 100vw;
+ 	.wrap {
+ 		position: relative;
+ 		margin-top: 10%;
+		margin-bottom: 10%;
+ 		background: #fff;
+ 		.logo {
+ 			margin-left: 10%;
+ 			margin-top: 10%;
+ 			margin-bottom: 10%;
+ 			min-width: 50%;
+ 		}
+ 		.form {
+ 			&-header {
+ 				margin-top: 15%;
+ 				margin-bottom: 1.5rem;
+ 				text-align: center;
+ 				h1 {
+ 					font-size: 1.5rem;
+ 					.f-os;
+ 				}
+ 				p {
+ 					font-size: 1rem;
+ 					.f-ub-med;
+ 				}
+ 			}
+			input {
+				border: none;
+				display: block;
+				margin: 0 auto;
+				height: 44px;
+				border-bottom: 1px solid #888888;
+				margin-top: 25px;
+				padding-left: 30px;
+				font-size: 1rem;
+				.f-ub-reg;
+				width: 80%;
+			}
+			&-name {
+				background: url(../img/main-ico-name.svg) no-repeat 0 center;
+			}
+			&-email {
+				background: url(../img/main-ico-email.svg) no-repeat 0 center;
+			}
+			&-psw {
+				background: url(../img/main-ico-psw.svg) no-repeat 0 center;
+			}
+			button {
+				.f-os;
+				font-size: 1rem;
+				width: 180px;
+				height: 55px;
+				border: none;
+				border-radius: 40px;
+				background-color: #82c5c3;
+				color: #fff;
+				display: block;
+				margin: 0 auto;
+				margin-top: 50px;
+			}
+			&-question {
+				color:  #000000;
+				font-size: 0.875rem;
+				margin-top: 20px;
+				margin-bottom: 100px;
+				margin-left: 40px;
+				a {
+					color: #f69a7a;
+					text-decoration: none;
+					&:hover {
+						// color: #999;
+						text-decoration: none;
+					}
+				}
+			}
+ 		}
+ 		.main-bg-bubble {
+ 			&-top {
+				position: absolute;
+				top: -57px;
+				left: 10%;
+ 			}
+ 			&-bottom {
+				position: absolute;
+				bottom: -57px;
+				right: 10%;
+ 			}
+ 		}
+ 	}
+}
+h1 {
+	.f-os;
+	font-size: 3rem;
+}
+label.error {
+	font-size: .7rem;
+	margin-left: 70px;
+	color: red;
+	.f-ub-reg;
+	color: rgba(246,154,122,.7);
+}

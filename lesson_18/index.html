@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Урок 18</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Ubuntu:400,500&amp;subset=cyrillic" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="wrap">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="logo" src="img/main-img.png" alt="Logo">
+            </div>
+            <div class="col-md-5">
+              <div class="form">
+                <div class="form-header">
+                  <h1>Сохрани свой аккаунт</h1>
+                  <p>Получи бесплатно неограниченное количество форм, вопросов и ответов.</p>
+                </div>
+                <form action="thanks.html" id="form">
+                  <input class="form-name" type="text" placeholder="Имя или никнейм" name="name">
+                  <input class="form-email" type="text" placeholder="Email" name="email">
+                  <input class="form-psw" type="text" placeholder="Пароль" name="psw">
+                  <button class="form-btn" type="submit">Сохранить ></button>
+                </form>
+                <p class="form-question">Уже есть аккаунт?
+                  <a href="#">Войти</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <img class="main-bg-bubble-top" src="img/main-bg-bubble-top.png" alt="">
+          <img class="main-bg-bubble-bottom" src="img/main-bg-bubble-bottom.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#form').validate({
+                rules: {
+                    name: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    psw: {
+                        required: true
+                    },
+                },
+                messages: {
+                    name: {
+                        required:'Это поле обязательно для заполнения'
+                    },
+                     email: {
+                        required:'Это поле обязательно для заполнения',
+                        email:'Введите корректный e-mail'
+                    },
+                     psw: {
+                        required:'Это поле обязательно для заполнения'
+                    }
+                }
+            });
+        });        
+    </script>
+  </body>
+</html>
