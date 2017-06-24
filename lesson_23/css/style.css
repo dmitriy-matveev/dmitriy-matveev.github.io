@@ -1,0 +1,59 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Luckiest Guy', cursive;
+}
+input {
+  display: inline-block;
+  width: 100%;
+}
+.contact {
+  padding: 10px 40px;
+  height: 520px;
+  color: #fff;
+  background-color: #4d59a1;
+}
+.contact h2 {
+  font-size: 4.2rem;
+}
+.contact input {
+  color: #666;
+  padding: 20px 0px;
+  padding-left: 20px;
+  margin-top: 22px;
+  border: none;
+  border-radius: 5px;
+}
+.contact textarea {
+  color: #666;
+  padding: 20px 0px;
+  padding-left: 20px;
+  margin-top: 22px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+.contact button {
+  color: #999;
+  font-size: 1.3rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 22px;
+  background-color: #c3f37f;
+  border: none;
+  border-radius: 70px;
+  height: 70px;
+  width: 250px;
+}
+footer {
+  position: relative;
+}
+.contacts-main {
+  width: 400px;
+  position: absolute;
+  z-index: 100;
+  top: 40px;
+  right: 40px;
+}
