@@ -24,41 +24,55 @@
     			<div class="row header-background__top">
     				<div class="col-md-4 header-background__top-left"><img src="img/left-top.png" alt=""></div>
     				<div class="col-md-4 header-background__top-center"><img src="img/top-center.png" alt=""></div>
-    				<div class="col-md-4 header-background__top-right"><img src="img/top-right.png" alt=""></div>
+    				<div class="col-md-4 header-background__top-right">
+                        <img class="top-right" src="img/top-right.png" alt="">
+                        <img class="top-right-gear" src="img/top-right-gear.png" alt="">
+                    </div>
     			</div>
     			<div class="row header-background__bottom">
     				<div class="col-md-2 header-background__bottom-left"><img src="img/dor.png" alt=""></div>
-    				<div class="col-md-6 header-background__bottom-center"><img src="img/owl.png" alt=""></div>
-    				<div class="col-md-4 header-background__bottom-right"><img src="img/bottom-right.png" alt=""></div>
+    				<div class="col-md-6 header-background__bottom-center">
+                        <img class="owl" src="img/owl.png" alt="">
+                        <img class="owl-gear" src="img/owl-gear.png" alt="">
+                    </div>
+    				<div class="col-md-4 header-background__bottom-right">
+                        <img class="bottom-right" src="img/bottom-right.png" alt="">
+                        <img class="bottom-right-arrow" src="img/bottom-right-arrow.png" alt="">
+                    </div>
     			</div>
     		</div>
     		<div class="header-ui text-center">
     			<nav class="header-ui-nav">
     				<ul>
-    					<li class="bottom">
+    					<li style="position: relative;" class="bottom">
     						<span></span>
     						<img src="img/light.png" alt="">
-    						<a href="#">Галерея</a>
+                            <img style="opacity: 0; transition: all .3s; position: absolute; top: -10%; left: 26%; width: 90px;" class="light-lights-1" src="img/light-lights.png" alt="">
+    						<a class="menu-item-1" href="#">Галерея</a>
     					</li>
-    					<li class="center">
+    					<li style="position: relative;" class="center">
     						<span></span>
     						<img src="img/light.png" alt="">
-    						<a href="#">Витрина</a>
+                            <img style="opacity: 0; transition: all .3s; position: absolute; top: -10%; left: 26%; width: 90px;" class="light-lights-2" src="img/light-lights.png" alt="">
+    						<a class="menu-item-2" href="#">Витрина</a>
     					</li>
-    					<li class="top">
+    					<li style="position: relative;" class="top">
     						<span></span>
     						<img src="img/light.png" alt="">
-    						<a href="#">Меню</a>
+                            <img style="opacity: 0; transition: all .3s; position: absolute; top: -10%; left: 26%; width: 90px;" class="light-lights-3" src="img/light-lights.png" alt="">
+    						<a class="menu-item-3" href="#">Меню</a>
     					</li>
-    					<li class="center">
+    					<li style="position: relative;" class="center">
     						<span></span>
     						<img src="img/light.png" alt="">
-    						<a href="#">Контакты</a>
+                            <img style="opacity: 0; transition: all .3s; position: absolute; top: -10%; left: 28%; width: 90px;" class="light-lights-4" src="img/light-lights.png" alt="">
+    						<a class="menu-item-4" href="#">Контакты</a>
     					</li>
-    					<li class="bottom">
+    					<li style="position: relative;" class="bottom">
     						<span></span>
     						<img src="img/light.png" alt="">
-    						<a href="#">Франшиза</a>
+                            <img style="opacity: 0; transition: all .3s; position: absolute; top: -10%; left: 29%; width: 90px;" class="light-lights-5" src="img/light-lights.png" alt="">
+    						<a class="menu-item-5" href="#">Франшиза</a>
     					</li>
     				</ul>
     			</nav>
@@ -73,5 +87,41 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('.menu-item-1').mouseenter(function(){
+            $('.light-lights-1').css({'opacity' : '.5'});
+        });
+        $('.menu-item-1').mouseleave(function(){
+            $('.light-lights-1').css({'opacity' : '0'});
+        });
+
+        $('.menu-item-2').mouseenter(function(){
+            $('.light-lights-2').css({'opacity' : '.5'});
+        });
+        $('.menu-item-2').mouseleave(function(){
+            $('.light-lights-2').css({'opacity' : '0'});
+        });
+
+        $('.menu-item-3').mouseenter(function(){
+            $('.light-lights-3').css({'opacity' : '.5'});
+        });
+        $('.menu-item-3').mouseleave(function(){
+            $('.light-lights-3').css({'opacity' : '0'});
+        });
+
+        $('.menu-item-4').mouseenter(function(){
+            $('.light-lights-4').css({'opacity' : '.5'});
+        });
+        $('.menu-item-4').mouseleave(function(){
+            $('.light-lights-4').css({'opacity' : '0'});
+        });
+
+        $('.menu-item-5').mouseenter(function(){
+            $('.light-lights-5').css({'opacity' : '.5'});
+        });
+        $('.menu-item-5').mouseleave(function(){
+            $('.light-lights-5').css({'opacity' : '0'});
+        });
+    </script>
   </body>
 </html>
