@@ -1,0 +1,303 @@
+// Colors
+
+
+body {
+	overflow-x: hidden;
+}
+.header-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../img/1-bg.jpg) center; 
+		opacity: 0.3;
+}
+.header {
+	padding-top: 10px;
+	text-align: center;
+	position: relative;
+	width: 100vw;
+	height: 670px;
+	ul {
+		margin-top: 30px;
+		li {
+			display: inline-block;
+			margin: 0 10px;
+			a {
+				display: block;
+				width: 200px;
+				border-radius: 5px;
+				padding: 10px 20px;
+				color: #777;
+				font-weight: 700;
+				text-transform: uppercase;
+				font-size: 20px;
+				&:hover {
+					text-decoration: none;
+					color: #333;
+				}
+			}
+		}
+	}
+	&-logo {
+		width: 100%;
+	}
+	&-logo-eskimo {
+		width: 40%;
+		margin-bottom: 40px;
+	}
+
+}
+section#slide1 {
+	position: relative;
+	height: 670px;
+	.slide1 {
+		&-bg {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: url(../img/2-bg.jpg) center;
+			background-size: cover; 
+			opacity: 0.3;
+		}
+		&-sum {
+			font-size: 70px;
+		}
+		&-img {
+			text-align: center;
+			margin-top: 40px;
+			&-1 {
+				width: 100%;
+			}
+			&-2 {
+				width: 120%;
+				transform: translateY(-25px);
+			}
+			&-3 {
+				width: 120%;
+				transform: translateY(-30px);
+			}
+		}
+		&-text {
+			padding-top: 70px;
+			font-size: 25px;
+			font-weight: 700;
+		}
+	}
+}
+.slide2 {
+	height: 700px;
+	position: relative;
+	&-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../img/3-bg.jpg) center;
+		background-size: cover; 
+		opacity: 0.3;
+	}
+	&-img {
+		padding-top: 20px;
+		width: 100%;
+		height: 670px;
+	}
+	&-text {
+		color: #a5682a;
+		z-index:10;
+		top: 42%;
+		left: 43%;
+		position: absolute;
+		font-size: 30px;
+		transform: rotate(-45deg);
+		opacity: 0.7;
+	}
+}
+.slide3 {
+	overflow-y: hidden;
+	height: 690px;
+	position: relative;
+	h3 {
+		font-size: 35px;
+	}
+	table {
+		margin-top: 30px;
+		font-size: 23px;
+		margin-bottom: 95px;
+		th {
+			padding-right: 50px;
+		}
+	}
+	&-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../img/4-bg.jpg) center;
+		background-size: cover; 
+		opacity: 0.3;
+	}
+	img {
+		width: 105.5%;
+	}
+}
+.slide4 {
+	img {
+		width: 100%;
+	}
+}
+.fotorama {
+	margin-top: 3rem;
+}
+.slide5 {
+	height: 700px;
+	color: #333;
+	// z-index: 10;
+	position: relative;
+	&-bg {
+		// z-index: 1;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../img/6-bg.jpg) center;
+		background-size: cover; 
+		opacity: 0.3;
+	}
+	&-header {
+		text-align: center;
+		font-size: 40px;
+	}
+	ul {
+		font-size: 20px;
+	}
+	img {
+		margin-top: -80px;
+		width: 100%;
+	}
+	&-text-header {
+		margin-left: 20px;
+	}
+	ul {
+		li {
+			color: black;
+			margin-bottom: 20px;
+		}
+	}
+}
+.slide6 {
+	background: #fefcea; /* Для старых браузров */
+  background: linear-gradient(to top, #aeaeae, #fff);
+	position: relative;
+	height: 700px;
+	&-header {
+		font-size: 50px;
+		margin-bottom: 100px;
+	}
+	h5 {
+		font-size: 50px;
+	}
+	ul {
+		margin-top: 50px;
+		li {
+			margin-top: 10px;
+			font-size: 20px;
+		}
+	}
+}
+.slide7 {
+	overflow: hidden;
+	height: 700px;
+	position: relative;
+	&-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../img/8-bg.jpg) center;
+		background-size: cover; 
+		opacity: 0.3;
+	}
+	&-img1 {
+		width: 120%;
+	}
+	&-img2 {
+		width: 170%;
+		transform: translate(-100px, 250px);
+	}
+	&-img3 {
+		width: 100%;
+		transform: translate(70px, 300px);
+	}
+	&-item1 {
+		span {
+			font-weight: 700;
+		}
+		&-text {
+			width: 380px;
+		}
+	}
+	&-item2 {
+		margin-top: 100px;
+	}
+}
+.addresses {
+	position: relative;
+	height: 750px;
+	&-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../img/9-bg.jpg) center;
+		background-size: cover; 
+		opacity: 0.3;
+	}
+	table {
+		margin-bottom: 30px;
+		tr {
+			th {
+				padding-right: 20px;
+			}
+		}
+	}
+}
+.contacts {
+	position: relative;
+	height: 570px;
+	img {
+		width: 50%;
+		margin-bottom: 15px;
+	}
+	&-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../img/10-bg.jpg) center;
+		background-size: cover; 
+		opacity: 0.5;
+	}
+	&-text {
+		margin-top: 30px;
+		p {
+			text-align: right;
+		}
+	}
+	&-text2 {
+		font-size: 20px;
+		&__link {
+			display: block;
+			transform: translateY(50px);
+		}
+	}
+}
