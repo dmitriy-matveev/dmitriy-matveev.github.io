@@ -9,7 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+    <link  href="css/fotorama.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -98,22 +99,14 @@
     <section id="slide4" class="slide4">
     	<div class="container">
     		<div class="row">
-    			<!-- 1. Link to jQuery (1.8 or later), -->
-					<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
-	
-					<!-- fotorama.css & fotorama.js. -->
-					<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-					<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
-	
-					<!-- 2. Add images to <div class="fotorama"></div>. -->
-					<div class="fotorama
-					data-stopautoplayontouch="true"
-            data-width="100%" 
-            data-height="600" 
-            data-loop="true"
-            data-allowfullscreen="true"
-            data-autoplay="3000"
-            data-nav="thumbs">
+    			<div class="fotorama 
+                            data-stopautoplayontouch="true"
+                            data-width="100%" 
+                            data-height="600" 
+                            data-loop="true"
+                            data-allowfullscreen="true"
+                            data-autoplay="3000"
+                            data-nav="thumbs">
 					  <img src="img/5-1.jpg">
 					  <img src="img/5-2.jpg">
 					  <img src="img/5-3.jpg">
@@ -311,5 +304,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/fotorama.js"></script>
   </body>
 </html>
